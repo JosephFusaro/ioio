@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: auto;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+p:first-of-type { /* this is the size of the subheader*/
+padding: 5;
+	font-size: 22px;
+	text-align: center;
+  font-color: linear-gradient(
+    to right,
+    rgba(98 100% 62%),
+    rgba(204 100% 59%)
+  );
+  font-style: bold;
+
+}
+.synopsis em {
+  text-align: center;
+  font-style: normal;
+}
+h1 {
+  font-size: 35px;/* this is the size of the header*/
+  padding: 10px 0 10px 10px;
+	text-align: center;
+  border: 0px solid #5D6063;
+  align-content: center;
+  font-color: #000000;
+}
+h2 {
+  font-size: 20px;/* this is the size of the header*/
+  padding: 10px 0 10px 10px;
+	text-align: center;
+  border: 0px solid #5D6063;
+  align-content: center;
+  font-color: #000000;
+}
+h3 {
+  font-size: 40px;/* this is the size of the header*/
+  padding: 10px 0 10px 10px;
+	text-align: center;
+  border: 0px solid #5D6063;
+  align-content: center;
+  font-color: #000000;
+}
+h4 {
+	font-size: 20px;/* this is the size of the header*/
+  padding: 10px 0 10px 10px;
+	text-align: center;
+  border: 0px solid #5D6063;
+  align-content: center;
+  font-color: #000000;
+}
+
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+
+  color: #000000;    /* this is the button text color*/
+  background: rgb(29,9,43);
+	background: rgb(173,155,255);
+	background: radial-gradient(circle, rgba(173,155,255,1) 35%, rgba(224,224,224,1) 100%);
+
+
+
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #000000;    /* Dark gray */
+  border-radius: 5px;
+
+  width: 300px;
+  margin: 80px auto;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: #ffffff;
+	background: rgb(148,151,179);
+	background: radial-gradient(circle, rgba(148,151,179,1) 2%, rgba(29,38,56,0.45702030812324934) 53%, rgba(102,102,102,1) 98%);
+}
+.button:active,
+.button:visited:active {
+  color: #ffffff;
+  background-color: #ffffff;  /* Blue */
+}
+.page {
+  width: auto;
+  height: 10000px;
+  margin: 0.1;
+	background: rgb(29,38,56);
+	background: linear-gradient(90deg, rgba(29,38,56,1) 0%, rgba(102,102,102,1) 100%);
+
+
+}
+.pageinside {
+  width: auto;
+	height: 1000px;
+	margin: 0 auto;
+	background-color: #DCD9D4;
+	 background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+	 background-blend-mode: soft-light,screen;  }
+
+.pageoutside {
+  width: auto;
+	height: 1000px;
+  margin: 0 auto;
+background-image: linear-gradient( 67.6deg,  rgba(225,242,254,1) -2.8%, rgba(193,224,250,1) 44.6%, rgba(19,116,197,1) 102.4% );}
+
+.pageinsideday {
+  width: auto;
+  height: 1000px;
+  margin: 0 auto;
+	background: rgb(221,221,221);
+	background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(207,219,238,1) 52%, rgba(186,191,135,1) 100%);
+
+}
+.pageinsidenight {
+  width: auto;
+  height: 1000px;
+  margin: 0 auto;
+background-image: linear-gradient(to top, #09203f 0%, #537895 100%);  }
+
+.pageoutsideday {
+  width: auto;
+	height: 1000px;
+  margin: 0 auto;
+	background: rgb(214,217,245);
+	background: linear-gradient(90deg, rgba(214,217,245,1) 35%, rgba(152,171,205,1) 71%, rgba(201,198,115,1) 92%);
+
+}
+.pageoutsidenight {
+  width: auto;
+	height: 1000px;
+  margin: 0 auto;
+	background: rgb(186,186,186);
+	background: linear-gradient(90deg, rgba(186,186,186,1) 0%, rgba(3,3,70,0.9108018207282913) 69%);
+
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: normal;
+  background-color: #ffffff;     /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #ffffff;     /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #ffffff;     /* Yellow */
+}
+}
+a:link {
+  color: 000000;
+  text-decoration: none;
+}
+a:visited: {
+  color: 000000;
+}
+a:hover {
+  color: 000000;
+  text-decoration: underline;
+}
+a:active {
+  color: 000000;
+}
+a:visited:hover {
+  color: 000000;
+}
+a:visited:active {
+  color: 000000;
+}
+p:last-of-type {
+  margin-bottom: 50px;
+}

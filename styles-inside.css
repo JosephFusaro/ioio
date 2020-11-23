@@ -1,0 +1,97 @@
+p:first-of-type {
+  color: #000000;
+  font-style: italic;
+
+}
+.synopsis em {
+  font-style: normal;
+}
+h1 {
+  padding: 20px 0 20px 10px;
+  border: 1px solid #5D6063;
+  align-content: center;
+  font-color: #000000;
+}
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+
+  color: #fdc7b3;    /* this is the button text color*/
+  background-color: #123456;    /* Blue */
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000000;    /* Dark gray */
+  border-radius: 0px;
+
+  width: auto;
+  margin: 20px auto;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: #7ca1d0;
+  background-color: #7ca1d0;  /* Light blue */
+}
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;  /* Blue */
+}
+.page {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  background-color: #123456;
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #EEB75A;     /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;     /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #1e151d;     /* Yellow */
+}
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited: {
+  color: purple;
+}
+a:hover {
+  color: 1e151d;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+a:visited:hover {
+  color: orange;
+}
+a:visited:active {
+  color: red;
+}
+p:last-of-type {
+  margin-bottom: 50px;
+}
+#button-2 {
+  color: #1e151d;
+}
+#button-3 {
+    color: #1e151d;
+}
+#button-4 {
+      color: #1e151d;
+ /* Dark gray */
+}
