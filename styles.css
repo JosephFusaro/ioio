@@ -32,6 +32,7 @@ padding: 5;
   font-style: bold;
 
 }
+
 .synopsis em {
   text-align: center;
   font-style: normal;
@@ -104,7 +105,7 @@ h4 {
 }
 .page {
   width: auto;
-  height: 10000px;
+  height: 1000px;
   margin: 0.1;
 	background: rgb(29,38,56);
 	background: linear-gradient(90deg, rgba(29,38,56,1) 0%, rgba(102,102,102,1) 100%);
@@ -127,7 +128,7 @@ background-image: linear-gradient( 67.6deg,  rgba(225,242,254,1) -2.8%, rgba(193
 
 .pageinsideday {
   width: auto;
-  height: 1000px;
+  height: 1500px;
   margin: 0 auto;
 	background: rgb(221,221,221);
 	background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(207,219,238,1) 52%, rgba(186,191,135,1) 100%);
@@ -155,7 +156,15 @@ background-image: linear-gradient(to top, #09203f 0%, #537895 100%);  }
 	background: linear-gradient(90deg, rgba(186,186,186,1) 0%, rgba(3,3,70,0.9108018207282913) 69%);
 
 }
+.pageprojectinfo {
+  width: auto;
+  height: 1900px;
+  margin: 0.1;
+	background: rgb(29,38,56);
+	background: linear-gradient(90deg, rgba(29,38,56,1) 0%, rgba(102,102,102,1) 100%);
 
+
+}
 .call-to-action:link,
 .call-to-action:visited {
   font-style: normal;
